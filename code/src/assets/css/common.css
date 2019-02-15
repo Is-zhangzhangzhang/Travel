@@ -1,0 +1,61 @@
+/*============顶部黑色部分===========*/
+.el-header {
+  background-color: #1e1b29;
+  color: #fff;
+}
+.top-inner {
+  margin: 0 auto;
+  min-width: 800px;
+  max-width: 80%;
+}
+.top-inner a {
+  text-decoration: none;
+  color: #fff;
+  margin: 5px 0;
+  display: inline-block;
+  line-height: 50px;
+}
+.top-inner a:hover {
+  text-shadow: 0 0 8px #fff;
+}
+.top-logo > img {
+  height: 50px;
+  width: auto;
+  float: left;
+}
+.top-logo > span {
+  font-size: 1.5rem;
+  float: left;
+}
+.head-protrait{
+  width: 36px;
+  border-radius: 50%;
+  margin-right: 5px
+}
+/*头像+昵称 溢出省略号*/
+/*.top-aboutme{*/
+  /*max-width: 180px;*/
+  /*overflow: hidden;*/
+  /*white-space: nowrap;*/
+  /*-ms-text-overflow: ellipsis;*/
+  /*text-overflow: ellipsis;*/
+/*}*/
+.top-inner .top-msg .el-icon-message,
+.top-inner .el-icon-setting,
+.top-inner .el-icon-edit-outline{
+  color: #fff;
+}
+.top-inner ul.el-menu-demo.el-menu--horizontal.el-menu{
+  border-bottom: 0px;
+}
+.top-msg .el-submenu__icon-arrow,
+.top-setting .el-submenu__icon-arrow,
+.top-new .el-submenu__icon-arrow{
+  display: none;
+}
+
+.top-msg .el-submenu__title,
+.top-setting  .el-submenu__title,
+.top-new .el-submenu__title{
+  padding: 0;
+}

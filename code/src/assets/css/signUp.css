@@ -1,0 +1,35 @@
+h2{
+  color: rgba(0,0,0,0.6)
+}
+a, span{
+  text-decoration: none;
+  font-size: 12px;
+}
+a:hover{
+  color: rgb(249,162,50) !important;
+}
+.main-section .el-form{
+  width: 80%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.main-section .el-form .el-form-item{
+  margin: 25px 0;
+}
+.main-section .el-form .el-form-item button{
+  font-size: 17px;
+  margin-top: 15px;
+  width: 100%;
+}
+#lg-a-forget{
+  position: absolute;
+  top: 30px;
+  right: 0;
+  color: #a2a2a2;
+}
+.lg-div-reg{
+  float: right;
+}
+.lg-div-reg a{
+  color: #0AE;
+}
