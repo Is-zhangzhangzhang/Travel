@@ -6,7 +6,7 @@
           <el-row type="flex">
             <el-col :span="3">
               <a href="javscript:void(0)" class="top-logo">
-                <img src="../assets/images/common/logo-top.png" alt="乐游社区">
+                <img src="../../static/images/common/logo-top.png" alt="乐游社区">
                 <span>乐游</span>
               </a>
             </el-col>
@@ -17,7 +17,7 @@
       <el-main>
         <el-row gutter="30" type="flex" align="middle" class="main-nav">
           <el-col :span="4">
-            <img src="../assets/images/common/login-main.png" alt="乐游社区">
+            <img src="../../static/images/common/login-main.png" alt="乐游社区">
           </el-col>
           <el-col :span="6">
             <div><strong>爱分享，乐旅游</strong></div>
@@ -35,7 +35,7 @@
               <!--<h3>{{ item }}</h3>-->
               <!--</el-carousel-item>-->
               <el-carousel-item>
-                <!--<img src="../assets/images/index/carousel1.jpg" alt="图片1">-->
+                <!--<img src="../../static/images/index/carousel1.jpg" alt="图片1">-->
                 <div class="carousel-item1">
                   <div>
                     <span>乐游，旅游社区交流平台</span>
@@ -125,7 +125,7 @@ export default {
   }
 
   .el-carousel__item:nth-child(3) {
-    background-image: url("../assets/images/index/carousel2.jpg");
+    background-image: url("../../static/images/index/carousel2.jpg");
     display: flex;
     /*align-items: center;*/
     justify-content: center;
@@ -143,22 +143,22 @@ export default {
   }
 
   .el-carousel__item:nth-child(4) {
-    background-image: url("../assets/images/index/carousel2.jpg");
+    background-image: url("../../static/images/index/carousel2.jpg");
   }
 
   /*.el-carousel__item:nth-child(5) {*/
-  /*background-image: url("../assets/images/index/carousel1.jpg");*/
+  /*background-image: url("../../static/images/index/carousel1.jpg");*/
   /*}*/
   /*.el-carousel__item:nth-child(6) {*/
-  /*background-image: url("../assets/images/index/carousel2.jpg");*/
+  /*background-image: url("../../static/images/index/carousel2.jpg");*/
   /*}*/
 
   /*.el-carousel__item:nth-child(4) {*/
-  /*background-image: url("../assets/images/index/carousel4.jpg");*/
+  /*background-image: url("../../static/images/index/carousel4.jpg");*/
   /*}*/
   /*@media screen and (max-width: 1000px){*/
   /*.el-carousel__item:nth-child(0) {*/
-  /*background-image: url("../assets/images/index/carousel1-small.jpg");*/
+  /*background-image: url("../../static/images/index/carousel1-small.jpg");*/
   /*}*/
   /*}*/
   .main-nav > .el-col > button,

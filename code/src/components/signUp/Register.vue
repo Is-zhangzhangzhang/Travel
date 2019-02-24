@@ -13,7 +13,7 @@
             <el-input type="password" placeholder="验证码" v-model="regForm.password"></el-input>
           </el-col>
           <el-col :span="9">
-            <img src="../../assets/images/login/captcha.png" height="35"/>
+            <img src="../../../static/images/login/captcha.png" height="35"/>
           </el-col>
         </el-row>
       </el-form-item>

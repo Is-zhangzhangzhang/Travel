@@ -1,12 +1,18 @@
 /*============顶部黑色部分===========*/
-.el-header {
+.el-header, .el-footer{
   background-color: #1e1b29;
   color: #fff;
 }
+.el-header .el-menu{
+  float:right
+}
 .top-inner {
   margin: 0 auto;
-  min-width: 800px;
+  min-width: 980px;
   max-width: 80%;
+}
+.top-inner > .el-row > .el-col:first-child{
+  text-align: left;
 }
 .top-inner a {
   text-decoration: none;
@@ -33,13 +39,13 @@
   margin-right: 5px
 }
 /*头像+昵称 溢出省略号*/
-/*.top-aboutme{*/
-  /*max-width: 180px;*/
-  /*overflow: hidden;*/
-  /*white-space: nowrap;*/
-  /*-ms-text-overflow: ellipsis;*/
-  /*text-overflow: ellipsis;*/
-/*}*/
+.top-aboutme{
+  max-width: 180px;
+  overflow: hidden;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
 .top-inner .top-msg .el-icon-message,
 .top-inner .el-icon-setting,
 .top-inner .el-icon-edit-outline{
@@ -58,4 +64,20 @@
 .top-setting  .el-submenu__title,
 .top-new .el-submenu__title{
   padding: 0;
+}
+
+/*太长省略号*/
+.ellipsis{
+  overflow: hidden;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.mul-ellipsis{
+  -webkit-line-clamp: 3;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

@@ -2,7 +2,7 @@
   <div class="wrapping">
       <div class="container">
           <div class="top-logo">
-            <img src="../../assets/images/login/login.png"/>
+            <img src="../../../static/images/login/login.png"/>
             <span>·登录</span>
           </div>
           <login v-if="show" @toRegister="changeShowValue"></login>
@@ -40,7 +40,7 @@ export default {
   .wrapping{
     min-width: 100vw;
     min-height: 100vh;
-    background-image: url("../../assets/images/login/login-bg.jpg");
+    background-image: url("../../../static/images/login/login-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
